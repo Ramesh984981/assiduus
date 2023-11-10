@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <div className='div'>
     <div className='container'>
-      <img className="img" src={logojpg}/>
+      <img className="img" alt='logo' src={logojpg}/>
       </div>
       <div className='image-right'>
       <input className='input' type="text"/>
-      <img className="img" src= {notijpg}/>
-      <img className="img" src= {userjpg}/>  
+      <img className="img" alt='noti' src= {notijpg}/>
+      <img className="img" alt='user' src= {userjpg}/>  
     </div>
 </div>
   )
